@@ -48,16 +48,21 @@ export default function HomePage() {
 
       <section className="grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold tracking-tight">Kenapa gratis?</h2>
+          <h2 className="text-lg font-semibold tracking-tight">
+            Kenapa gratis?
+          </h2>
           <p className="mt-2 text-sm leading-relaxed text-black/70">
-            Fokusnya validasi pasar dan kegunaan tool. Kamu bisa pakai tanpa akun,
-            tanpa iklan, dan tanpa data disimpan. Nanti kalau sudah berkembang,
-            baru dipertimbangkan monetisasi yang wajar (misalnya AdSense).
+            Fokusnya validasi pasar dan kegunaan tool. Kamu bisa pakai tanpa
+            akun, tanpa iklan, dan tanpa data disimpan. Nanti kalau sudah
+            berkembang, baru dipertimbangkan monetisasi yang wajar (misalnya
+            AdSense).
           </p>
         </div>
 
         <div className="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
-          <h2 className="text-lg font-semibold tracking-tight">Prinsip desain</h2>
+          <h2 className="text-lg font-semibold tracking-tight">
+            Prinsip desain
+          </h2>
           <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-black/70">
             <li>Mobile-first, cepat dibuka, tampilan rapi</li>
             <li>Perhitungan sepenuhnya di device kamu</li>
@@ -80,12 +85,33 @@ export default function HomePage() {
           </a>
 
           <div className="rounded-2xl border border-dashed border-black/15 bg-white p-5">
-            <p className="text-sm font-semibold">Tool berikutnya (coming soon)</p>
+            <p className="text-sm font-semibold">
+              Tool berikutnya (coming soon)
+            </p>
             <p className="mt-1 text-sm text-black/70">
               Akan ditambah secara bertahap berdasarkan kebutuhan pengguna.
             </p>
           </div>
         </div>
+      </section>
+
+      <section className="rounded-2xl border border-black/10 bg-white p-6 shadow-sm">
+        <h2 className="text-lg font-semibold tracking-tight">
+          Artikel Terbaru
+        </h2>
+
+        <a
+          href="/artikel/cara-membagi-gaji-50-30-20"
+          className="mt-4 block rounded-2xl border border-black/10 bg-white p-5 hover:bg-black/5"
+        >
+          <p className="text-sm font-semibold">
+            Cara Membagi Gaji 50/30/20 yang Realistis
+          </p>
+          <p className="mt-1 text-sm text-black/70">
+            Panduan santai untuk memahami metode 50/30/20, lengkap dengan contoh
+            angka, kesalahan umum, dan tips agar konsisten.
+          </p>
+        </a>
       </section>
     </div>
   );
